@@ -1,7 +1,7 @@
 /*
  * ElementToComponentMappingRule.java
  *
- * Copyright (c) 2020-2022 RHEA System S.A.
+ * Copyright (c) 2020-2024 Starion Group S.A.
  *
  * Author: Sam Gerené, Alex Vorobiev, Nathanael Smiechowski 
  *
@@ -311,7 +311,7 @@ public class ElementToComponentMappingRule extends HubToDstBaseMappingRule<HubEl
             physicalComponent.setKind(PhysicalComponentKind.UNSET);
         }
 
-        if(physicalComponent.getNature() == null)
+        if(physicalComponent.getNature() == null || physicalComponent.getNature() == PhysicalComponentNature.UNSET)
         {
             physicalComponent.setNature(PhysicalComponentNature.BEHAVIOR);
         }

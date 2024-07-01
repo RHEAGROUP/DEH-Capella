@@ -5,8 +5,13 @@ bin.includes = plugin.xml,\
                .,\
                icons/,\
                log4j2.xml,\
-               lib/DEHCommonJ-1.1.5.jar,\
                lib/log4j-api-2.11.2.jar,\
                lib/log4j-core-2.11.2.jar,\
-               lib/log4j-slf4j-impl-2.11.2.jar
+               lib/log4j-slf4j-impl-2.11.2.jar,\
+               lib/dehcommonj-1.2.0.jar,\
+               resources/
 source.. = src/
+jar.sign=true
+jarsigner.alias=capella-plugin
+jarsigner.keystore=../capella.keystore
+jarsigner.storepass=your-keystore-password

@@ -1,7 +1,7 @@
 /*
  * CapellaMappingListViewPanel.java
  *
- * Copyright (c) 2020-2022 RHEA System S.A.
+ * Copyright (c) 2020-2024 Starion Group S.A.
  *
  * Author: Sam Gerené, Alex Vorobiev, Nathanael Smiechowski 
  *

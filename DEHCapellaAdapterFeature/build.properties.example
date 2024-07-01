@@ -1,0 +1,5 @@
+bin.includes = feature.xml
+jar.sign=true
+jarsigner.alias=capella-plugin
+jarsigner.keystore=../capella.keystore
+jarsigner.storepass=your-keystore-password

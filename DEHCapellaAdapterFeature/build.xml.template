@@ -74,7 +74,7 @@
 				<include name="feature.xml"/>
 			</fileset>
 		</copy>
-		<eclipse.idReplacer featureFilePath="${feature.temp.folder}/features/DEHCapellaAdapterFeature{version}/feature.xml"  selfVersion="1.6.0" featureIds="" pluginIds="com.rheagroup.dehcapellaadapter:0.0.0,1.6.0,"/>
+		<eclipse.idReplacer featureFilePath="${feature.temp.folder}/features/DEHCapellaAdapterFeature{version}/feature.xml"  selfVersion="1.6.0" featureIds="" pluginIds="eu.stariongroup.dehcapellaadapter:0.0.0,1.6.0,"/>
 		<eclipse.gatherFeature 
 		   metadataRepository="${p2.build.repo}"
 		   artifactRepository="${p2.build.repo}"
@@ -94,7 +94,7 @@
 				<include name="feature.xml"/>
 			</fileset>
 		</copy>
-		<eclipse.idReplacer featureFilePath="${feature.base}/features/DEHCapellaAdapterFeature{version}/feature.xml"  selfVersion="1.6.0" featureIds="" pluginIds="com.rheagroup.dehcapellaadapter:0.0.0,1.6.0,"/>
+		<eclipse.idReplacer featureFilePath="${feature.base}/features/DEHCapellaAdapterFeature{version}/feature.xml"  selfVersion="1.6.0" featureIds="" pluginIds="eu.stariongroup.dehcapellaadapter:0.0.0,1.6.0,"/>
 		<antcall target="rootFiles">
 			<param name="rootTarget" value="rootFiles${os}_${ws}_${arch}"/>
 		</antcall>

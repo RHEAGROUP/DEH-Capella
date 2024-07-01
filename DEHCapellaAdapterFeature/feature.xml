@@ -2,14 +2,15 @@
 <feature
       id="DEHCapellaAdapterFeature"
       label="DEHCapellaAdapter"
-      version="1.7.0"
-      provider-name="Rhea Group SA">
+      version="1.8.0"
+      provider-name="STARION GROUP SA"
+      plugin="eu.stariongroup.dehcapellaadapter">
 
-   <description url="www.rheagroup.com">
-      Rhea group feature for the DEH Capella Adapter
+   <description url="www.stariongroup.eu">
+      Starion Group feature for the DEH Capella Adapter
    </description>
 
-   <copyright url="https://github.com/RHEAGROUP/DEH-Capella/blob/master/COPYING">
+   <copyright url="https://github.com/STARIONGROUP/DEH-Capella/blob/master/COPYING">
       GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
@@ -686,7 +687,7 @@ Public License instead of this License.  But first, please read
 &lt;https://www.gnu.org/licenses/why-not-lgpl.html&gt;.
    </copyright>
 
-   <license url="https://github.com/RHEAGROUP/DEH-Capella/blob/master/COPYING">
+   <license url="https://github.com/STARIONGROUP/DEH-Capella/blob/master/COPYING">
       GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
@@ -1364,7 +1365,7 @@ Public License instead of this License.  But first, please read
    </license>
 
    <url>
-      <discovery label="RHEAGROUP GitHub" url="https://github.com/RHEAGROUP"/>
+      <discovery label="STARIONGROUP GitHub" url="https://github.com/STARIONGROUP"/>
    </url>
 
    <requires>
@@ -1376,7 +1377,7 @@ Public License instead of this License.  But first, please read
    </requires>
 
    <plugin
-         id="com.rheagroup.dehcapellaadapter"
+         id="eu.stariongroup.dehcapellaadapter"
          download-size="0"
          install-size="0"
          version="0.0.0"/>

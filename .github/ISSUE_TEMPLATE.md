@@ -2,7 +2,7 @@
 
 - [ ] I have written a descriptive issue title
 - [ ] I have verified that I am running the latest version of the DEH-Capella
-- [ ] I have searched [open](https://github.com/RHEAGROUP/DEH-Capella/issues) and [closed](https://github.com/RHEAGROUP/DEH-Capella/issues?q=is%3Aissue+is%3Aclosed) issues to ensure it has not already been reported
+- [ ] I have searched [open](https://github.com/STARIONGROUP/DEH-Capella/issues) and [closed](https://github.com/STARIONGROUP/DEH-Capella/issues?q=is%3Aissue+is%3Aclosed) issues to ensure it has not already been reported
 
 ### Description
 <!-- A description of the bug or feature -->

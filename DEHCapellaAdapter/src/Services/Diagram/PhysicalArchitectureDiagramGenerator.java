@@ -1,9 +1,9 @@
 /*
  * PhysicalArchitectureDiagramGenerator.java
  *
- * Copyright (c) 2020-2022 RHEA System S.A.
+ * Copyright (c) 2020-2024 Starion Group S.A.
  *
- * Author: Sam Gerené, Alex Vorobiev, Nathanael Smiechowski 
+ * Author: Sam Gerenï¿½, Alex Vorobiev, Nathanael Smiechowski 
  *
  * This file is part of DEH-Capella
  *

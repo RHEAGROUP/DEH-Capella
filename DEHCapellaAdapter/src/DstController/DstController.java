@@ -1,7 +1,7 @@
 /*
  * DstController.java
  *
- * Copyright (c) 2020-2022 RHEA System S.A.
+ * Copyright (c) 2020-2024 Starion Group S.A.
  *
  * Author: Sam Gerené, Alex Vorobiev, Nathanael Smiechowski 
  *
@@ -1102,6 +1102,12 @@ public final class DstController implements IDstController
         var clonedReference = this.transactionService.GetClone(element);
         
         clonedReference.GetOriginal().setName(clonedReference.GetClone().getName());
+        
+        if(element instanceof PhysicalComponent)
+        {
+            ((PhysicalComponent)clonedReference.GetOriginal()).setNature(((PhysicalComponent)clonedReference.GetClone()).getNature());
+            ((PhysicalComponent)clonedReference.GetOriginal()).setKind(((PhysicalComponent)clonedReference.GetClone()).getKind());
+        }
         
         for (var clonedProperty : clonedReference.GetClone().getContainedProperties().stream().collect(Collectors.toList()))
         {

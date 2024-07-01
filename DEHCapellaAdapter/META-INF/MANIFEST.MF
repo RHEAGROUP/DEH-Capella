@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: DEH-CapellaAdapter
-Bundle-SymbolicName: com.rheagroup.dehcapellaadapter;singleton:=true
-Bundle-Version: 1.7.0
-Bundle-Vendor: RHEAGROUP
+Bundle-SymbolicName: eu.stariongroup.dehcapellaadapter;singleton:=true
+Bundle-Version: 1.8.0
+Bundle-Vendor: STARIONGROUP
 Require-Bundle: org.eclipse.ui,
  org.polarsys.capella.core.model.handler;bundle-version="5.1.0";visibility:=reexport,
  org.polarsys.capella.core.model.helpers;bundle-version="5.1.0";visibility:=reexport,
@@ -20,7 +20,7 @@ Bundle-ClassPath: .,
  lib/log4j-api-2.11.2.jar,
  lib/log4j-core-2.11.2.jar,
  lib/log4j-slf4j-impl-2.11.2.jar,
- lib/DEHCommonJ-1.1.5.jar,
+ lib/DEHCommonJ-1.2.0.jar,
  miglayout15-swing.jar
 Export-Package: App,
  Commands,
